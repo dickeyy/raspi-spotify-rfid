@@ -14,7 +14,7 @@
 14. Hamilton (Original Broadway Cast Recording) https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc
 15. Mama Mia! Here We Go Again (Original Motion Picture Soundtrack) https://open.spotify.com/album/14hC5eBiPUxdPa90eCzwrR
 16. Tay Tay Swifty (playlist) https://open.spotify.com/playlist/5qvEvL5VYNxMi7Q7PWIS6u
-17. Yee Haw (playlis) https://open.spotify.com/playlist/6ZIftcLT2xNsCOWaTdCdfs
+17. Yee Haw (playlist) https://open.spotify.com/playlist/6ZIftcLT2xNsCOWaTdCdfs
 18. Musical Theater (playlist) https://open.spotify.com/playlist/4xsTCcceRE7HEBhtpt2zKP
 19. Girly Songs (playlist) https://open.spotify.com/playlist/25HjzG4TGTUzywEaOpB969
 20. 80's Night (playlist) https://open.spotify.com/playlist/2J8GVBFf9ZpzuZFsN5qym5
@@ -22,3 +22,29 @@
 22. Stick Season (We'll all be here forever) https://open.spotify.com/album/1pb3je8gXTs5dpRRTKhHRC
 23. Hick Time (playlist) https://open.spotify.com/playlist/6kerovxFzKzlnKGkbiKRnm
 24. Wasteland baby https://open.spotify.com/album/2c7gFThUYyo2t6ogAgIYNw
+
+--- ids
+1. 826674905872: "spotify:album:1o59UpKw81iHR0HPiSkJR0"
+2. 1032531346238: "spotify:album:5AEDGbliTTfjOB8TSm1sxt"
+3. 2041119699: "spotify:album:3lS1y25WAhcqJDATJK70Mq"
+4. 620231197522: "spotify:album:6kZ42qRrzov54LcAk4onW9"
+5. 689573397481: "spotify:album:4hDok0OAJd57SGIT8xuWJH"
+6. 1033002943414: "spotify:album:6AORtDjduMM3bupSWzbTSG"
+7. 757856600838: "spotify:album:1pzvBxYgT6OVwJLtHkrdQK"
+8. 964367287214: "spotify:album:1NAmidJlEaVgA3MpcPFYGq"
+9. 2059731900: "spotify:album:6DEjYFkNZh67HP7R9PSZvv"
+10. 277222785804: "spotify:album:6CczqhUdYOH4qLSDnN3zkg"
+11. 964065231697: "spotify:album:6BUPtXbb2tspYnkVdg5Ef7"
+12. 139146232709: "spotify:album:3gF9KIynrJaC80HbVayPMx"
+13. 963696001857: "spotify:album:1xJHno7SmdVtZAtXbdbDZp"
+14. 413571089387: "spotify:album:1kCHru7uhxBUdzkm4gzRQc"
+15. 414743397201: "spotify:album:14hC5eBiPUxdPa90eCzwrR"
+16. 277086405475: "spotify:playlist:5qvEvL5VYNxMi7Q7PWIS6u"
+17. 2040792030: "spotify:playlist:6ZIftcLT2xNsCOWaTdCdfs"
+18. 1033051046865: "spotify:playlist:4xsTCcceRE7HEBhtpt2zKP"
+19. 620482593601: "spotify:playlist:25HjzG4TGTUzywEaOpB969"
+20. 895159239454: "spotify:playlist:2J8GVBFf9ZpzuZFsN5qym5"
+21. 826775307034: "spotify:album:2g4aJTa5ejGpp0O0GKzWAQ"
+22. 826590823184: "spotify:album:1pb3je8gXTs5dpRRTKhHRC"
+23. 552082015150: "spotify:playlist:6kerovxFzKzlnKGkbiKRnm"
+24. 345739101060: "spotify:album:2c7gFThUYyo2t6ogAgIYNw"

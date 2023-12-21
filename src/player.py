@@ -13,15 +13,30 @@ CLIENT_SECRET=dotenv.get('CLIENT_SECRET')
 
 # dictionary of card values and their corresponding song / album URIs
 CARD_URI_DICT = {
-    'RFID-CARDVALUE-1': { # the card value, should be a number not a string
-        'song': 'spotify:track:0000',
-        'shuffle': False
-    },
-    'RFID-CARDVALUE-2': {
-        'song': 'spotify:album:0000',
-        'shuffle': True
-    }
-    # continue adding as many card values and URIs as you want
+    826674905872: {'song': 'spotify:album:1o59UpKw81iHR0HPiSkJR0', 'shuffle': False},
+    1032531346238: {'song': 'spotify:album:5AEDGbliTTfjOB8TSm1sxt', 'shuffle': False},
+    2041119699: {'song': 'spotify:album:3lS1y25WAhcqJDATJK70Mq', 'shuffle': False},
+    620231197522: {'song': 'spotify:album:6kZ42qRrzov54LcAk4onW9', 'shuffle': False},
+    689573397481: {'song': 'spotify:album:4hDok0OAJd57SGIT8xuWJH', 'shuffle': False},
+    1033002943414: {'song': 'spotify:album:6AORtDjduMM3bupSWzbTSG', 'shuffle': False},
+    757856600838: {'song': 'spotify:album:1pzvBxYgT6OVwJLtHkrdQK', 'shuffle': False},
+    964367287214: {'song': 'spotify:album:1NAmidJlEaVgA3MpcPFYGq', 'shuffle': False},
+    2059731900: {'song': 'spotify:album:6DEjYFkNZh67HP7R9PSZvv', 'shuffle': False},
+    277222785804: {'song': 'spotify:album:6CczqhUdYOH4qLSDnN3zkg', 'shuffle': False},
+    964065231697: {'song': 'spotify:album:6BUPtXbb2tspYnkVdg5Ef7', 'shuffle': False},
+    139146232709: {'song': 'spotify:album:3gF9KIynrJaC80HbVayPMx', 'shuffle': False},
+    963696001857: {'song': 'spotify:album:1xJHno7SmdVtZAtXbdbDZp', 'shuffle': False},
+    413571089387: {'song': 'spotify:album:1kCHru7uhxBUdzkm4gzRQc', 'shuffle': False},
+    414743397201: {'song': 'spotify:album:14hC5eBiPUxdPa90eCzwrR', 'shuffle': False},
+    277086405475: {'song': 'spotify:playlist:5qvEvL5VYNxMi7Q7PWIS6u', 'shuffle': False},
+    2040792030: {'song': 'spotify:playlist:6ZIftcLT2xNsCOWaTdCdfs', 'shuffle': False},
+    1033051046865: {'song': 'spotify:playlist:4xsTCcceRE7HEBhtpt2zKP', 'shuffle': False},
+    620482593601: {'song': 'spotify:playlist:25HjzG4TGTUzywEaOpB969', 'shuffle': False},
+    895159239454: {'song': 'spotify:playlist:2J8GVBFf9ZpzuZFsN5qym5', 'shuffle': False},
+    826775307034: {'song': 'spotify:album:2g4aJTa5ejGpp0O0GKzWAQ', 'shuffle': False},
+    826590823184: {'song': 'spotify:album:1pb3je8gXTs5dpRRTKhHRC', 'shuffle': False},
+    552082015150: {'song': 'spotify:playlist:6kerovxFzKzlnKGkbiKRnm', 'shuffle': False},
+    345739101060: {'song': 'spotify:album:2c7gFThUYyo2t6ogAgIYNw', 'shuffle': False}
 }
 
 while True:
@@ -43,7 +58,7 @@ while True:
             if (id in CARD_URI_DICT):
                 print("Playing song/album...") 
 
-                sp.start_playback(device_id=DEVICE_ID, uris=[CARD_URI_DICT[id]]) # play the song/album
+                sp.start_playback(device_id=DEVICE_ID, uris=[CARD_URI_DICT[id]['song']]) # play the song/album
                 sp.shuffle(state=CARD_URI_DICT[id]['shuffle']) # shuffle if the card value is set to shuffle
 
                 sleep(2)
